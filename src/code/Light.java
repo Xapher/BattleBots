@@ -6,7 +6,7 @@ import interfaces.ILight;
 
 public class Light implements ILight
 {
-	LightSensor light = new LightSensor(SensorPort.S2);
+	LightSensor light = new LightSensor(SensorPort.S1);
 	
 	@Override
 	public int readValue() 

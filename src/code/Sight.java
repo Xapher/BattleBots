@@ -9,7 +9,7 @@ import interfaces.ISight;
 
 public class Sight implements ISight
 {
-	int MAX_DISTANCE = 60;
+	int MAX_DISTANCE = 30;
 	int PERIOD = 200;
 	UltrasonicSensor us = new UltrasonicSensor(SensorPort.S4);
 	FeatureDetector fd = new RangeFeatureDetector(us, MAX_DISTANCE, PERIOD);
